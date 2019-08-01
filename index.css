@@ -1,0 +1,12 @@
+.countries {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.countries {
+    height: 24px;
+    border: 1px solid #ece8e8;
+}
+
+.small-flag {
+    width: 30px;
+}
