@@ -8,7 +8,7 @@ const extraerTodosLosPaises = () => {
         console.log(data)
         listaPaises.innerHTML = data.map((pais) => {
             return `
-     <tr class="countries">
+     <tr class="Countries">
      <td>
      <img class="small-flag"
      src="${pais.flag}" />
@@ -22,7 +22,9 @@ const extraerTodosLosPaises = () => {
 
 const describirPaises = (pais) => {
         console.log(pais.name)
-        descripcionPaises.innerHTML = pais.name
+
+
+
     }
     //EVENTOS
 extraerTodosLosPaises()
